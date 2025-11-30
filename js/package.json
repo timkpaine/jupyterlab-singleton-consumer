@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab-singleton-consumer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Example of a JupyterLab extension that consumes e.g. a webcomponent singleton registered by another extension",
   "repository": "git@github.com:timkpaine/jupyterlab-singleton-consumer.git",
   "author": "the jupyterlab-singleton-consumer authors <t.paine154@gmail.com>",

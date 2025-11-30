@@ -8,7 +8,7 @@ authors = [{name = "the jupyterlab-singleton-consumer authors", email = "t.paine
 description = "Example of a JupyterLab extension that consumes e.g. a webcomponent singleton registered by another extension"
 readme = "README.md"
 license = { text = "Apache-2.0" }
-version = "0.1.0"
+version = "1.0.0"
 requires-python = ">=3.10"
 keywords = []
 
@@ -57,7 +57,7 @@ Repository = "https://github.com/timkpaine/jupyterlab-singleton-consumer"
 Homepage = "https://github.com/timkpaine/jupyterlab-singleton-consumer"
 
 [tool.bumpversion]
-current_version = "0.1.0"
+current_version = "1.0.0"
 commit = true
 tag = true
 commit_args = "-s"
