@@ -23,6 +23,9 @@ importers:
       '@lumino/disposable':
         specifier: ^2.1.4
         version: 2.1.5
+      jupyterlab-singleton-provider:
+        specifier: ^0.1.0
+        version: 0.1.0(react@18.3.1)
     devDependencies:
       '@babel/cli':
         specifier: ^7.28.3
@@ -3413,6 +3416,9 @@ packages:
   junk@4.0.1:
     resolution: {integrity: sha512-Qush0uP+G8ZScpGMZvHUiRfI0YBWuB3gVBYlI0v0vvOJt5FLicco+IkP0a50LqTTQhmts/m6tP5SWE+USyIvcQ==}
     engines: {node: '>=12.20'}
+
+  jupyterlab-singleton-provider@0.1.0:
+    resolution: {integrity: sha512-j6bHhdu9SwRACVLxrCE6c/K/Jn9E+74jYgiAFzuokVz0IQ7ds7Ks+i9X5luH/OS4BdfwWTXBarEOp7nKpqB2+A==}
 
   katex@0.16.25:
     resolution: {integrity: sha512-woHRUZ/iF23GBP1dkDQMh1QBad9dmr8/PAwNA54VrSOVYgI12MAcE14TqnDdQOdzyEonGzMepYnqBMYdsoAr8Q==}
@@ -9576,6 +9582,21 @@ snapshots:
       object.values: 1.2.1
 
   junk@4.0.1: {}
+
+  jupyterlab-singleton-provider@0.1.0(react@18.3.1):
+    dependencies:
+      '@jupyterlab/application': 4.5.0(react@18.3.1)
+      '@jupyterlab/apputils': 4.6.0
+      '@jupyterlab/notebook': 4.5.0
+      '@jupyterlab/services': 7.5.0(react@18.3.1)
+      '@lumino/coreutils': 2.2.2
+      '@lumino/disposable': 2.1.5
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - react
+      - supports-color
+      - utf-8-validate
 
   katex@0.16.25:
     dependencies:

@@ -27,6 +27,12 @@
           "pip"
         ]
       }
+    },
+    "sharedPackages": {
+      "jupyterlab-singleton-provider": {
+        "bundled": false,
+        "singleton": true
+      }
     }
   },
   "scripts": {
@@ -46,7 +52,8 @@
     "@jupyterlab/apputils": "^4.5.10",
     "@jupyterlab/notebook": "^4.4.10",
     "@jupyterlab/services": "^7.4.10",
-    "@lumino/disposable": "^2.1.4"
+    "@lumino/disposable": "^2.1.4",
+    "jupyterlab-singleton-provider": "^0.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.28.3",
