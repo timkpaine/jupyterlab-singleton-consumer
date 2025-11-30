@@ -128,8 +128,8 @@ exclude = [
 ]
 
 [tool.hatch.build.targets.wheel.shared-data]
-"jupyterlab_singleton_consumer/labextension" = "share/jupyter/labextensions/jupyterlab_singleton_consumer"
-"jupyterlab_singleton_consumer/extension/install.json" = "share/jupyter/labextensions/jupyterlab_singleton_consumer/install.json"
+"jupyterlab_singleton_consumer/labextension" = "share/jupyter/labextensions/jupyterlab-singleton-consumer"
+"jupyterlab_singleton_consumer/extension/install.json" = "share/jupyter/labextensions/jupyterlab-singleton-consumer/install.json"
 "jupyterlab_singleton_consumer/extension/jupyterlab_singleton_consumer.json" = "etc/jupyter/jupyter_server_config.d/jupyterlab_singleton_consumer.json"
 
 [tool.hatch.build.hooks.hatch-js]
