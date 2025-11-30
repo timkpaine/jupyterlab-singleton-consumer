@@ -10,5 +10,10 @@ Example of a JupyterLab extension that consumes e.g. a webcomponent singleton re
 
 ## Overview
 
+This repo demonstrates how to create a JupyterLab extension which consumes a singleton service from another extension.
+In this case, we're not actually using a service, but instead a singleton WebComponent.
+
+An example provider is implemented in [jupyterlab-singleton-provider](https://github.com/timkpaine/jupyterlab-singleton-provider).
+
 > [!NOTE]
 > This library was generated using [copier](https://copier.readthedocs.io/en/stable/) from the [Base Python Project Template repository](https://github.com/python-project-templates/base).
