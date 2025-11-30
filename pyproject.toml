@@ -29,7 +29,7 @@ classifiers = [
 
 dependencies = [
     "jupyterlab>=4,<5",
-    "jupyterlab-singleton-provider",
+    "jupyterlab-singleton-provider>=1.0.0,<2",
 ]
 
 [project.optional-dependencies]
