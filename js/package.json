@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "@jupyterlab/application": "^4.5.3",
-    "@jupyterlab/apputils": "^4.6.3",
+    "@jupyterlab/apputils": "^4.6.6",
     "@jupyterlab/notebook": "^4.5.3",
     "@jupyterlab/services": "^7.5.3",
     "@lumino/disposable": "^2.1.5",
@@ -79,6 +79,6 @@
     "jest-transform-css": "^6.0.3",
     "mkdirp": "^3.0.1",
     "prettier": "^3.8.1",
-    "rimraf": "^6.1.2"
+    "rimraf": "^6.1.3"
   }
 }
