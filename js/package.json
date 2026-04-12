@@ -51,10 +51,16 @@
   "dependencies": {
     "@jupyterlab/application": "^4.5.3",
     "@jupyterlab/apputils": "^4.6.6",
+<<<<<<< before updating
     "@jupyterlab/notebook": "^4.5.3",
     "@jupyterlab/services": "^7.5.3",
     "@lumino/disposable": "^2.1.5",
     "jupyterlab-singleton-provider": "^1.0.0"
+=======
+    "@jupyterlab/notebook": "^4.5.1",
+    "@jupyterlab/services": "^7.5.5",
+    "@lumino/disposable": "^2.1.5"
+>>>>>>> after updating
   },
   "devDependencies": {
     "@babel/cli": "^7.28.6",
