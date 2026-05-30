@@ -1,0 +1,7 @@
+allowBuilds:
+  "@fortawesome/fontawesome-free": true
+  jupyterlab-singleton-provider: true
+  unrs-resolver: true
+
+overrides:
+  webpack: "5.76.1"
