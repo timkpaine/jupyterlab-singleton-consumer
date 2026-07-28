@@ -1,4 +1,4 @@
-from jupyterlab_singleton_consumer import *  # noqa
+from jupyterlab_singleton_consumer import *
 
 
 def test_all():
