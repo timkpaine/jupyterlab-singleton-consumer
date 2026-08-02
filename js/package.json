@@ -52,7 +52,6 @@
     "@jupyterlab/application": "^4.5.7",
     "@jupyterlab/apputils": "^4.6.7",
     "@jupyterlab/notebook": "^4.5.7",
-<<<<<<< before updating
     "@jupyterlab/services": "^7.5.7",
     "@lumino/disposable": "^2.1.5",
     "jupyterlab-singleton-provider": "^1.0.0"
@@ -63,17 +62,6 @@
     "@babel/eslint-parser": "^7.29.7",
     "@babel/preset-env": "^7.29.7",
     "@jupyterlab/builder": "^4.5.7",
-=======
-    "@jupyterlab/services": "^7.5.10",
-    "@lumino/disposable": "^2.1.5"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.28.6",
-    "@babel/core": "^7.29.0",
-    "@babel/eslint-parser": "^7.28.6",
-    "@babel/preset-env": "^7.29.3",
-    "@jupyterlab/builder": "^4.5.10",
->>>>>>> after updating
     "babel-jest": "^30.4.1",
     "cpy-cli": "^7.0.0",
     "eslint": "^8.57.1",
@@ -90,11 +78,7 @@
     "jest-junit": "^17.0.0",
     "jest-transform-css": "^6.0.3",
     "mkdirp": "^3.0.1",
-<<<<<<< before updating
     "prettier": "^3.8.3",
-=======
-    "prettier": "^3.9.6",
->>>>>>> after updating
     "rimraf": "^6.1.3"
   }
 }
