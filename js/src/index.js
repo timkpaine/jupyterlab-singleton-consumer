@@ -1,5 +1,13 @@
 import "../style/index.css";
+<<<<<<< before updating
 import {ISingletonProvider} from "jupyterlab-singleton-provider";
+=======
+
+async function activate(_app) {
+  // oxlint-disable-next-line no-console
+  console.log("JupyterLab extension jupyterlab-singleton-consumer is activated!");
+}
+>>>>>>> after updating
 
 const extension = {
   activate: () => {
