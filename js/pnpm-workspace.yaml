@@ -1,5 +1,6 @@
 allowBuilds:
   "@fortawesome/fontawesome-free": true
+  "@parcel/watcher": true
   jupyterlab-singleton-provider: true
   unrs-resolver: true
 
