@@ -1,6 +1,10 @@
 allowBuilds:
   "@fortawesome/fontawesome-free": true
+<<<<<<< before updating
   jupyterlab-singleton-provider: true
+=======
+  "@parcel/watcher": true
+>>>>>>> after updating
   unrs-resolver: true
 
 overrides:
